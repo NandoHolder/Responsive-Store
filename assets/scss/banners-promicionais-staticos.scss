@@ -1,0 +1,55 @@
+@mixin banners-staticos($cor, $url-image) {
+    background: $cor;
+    background-image: url($url-image);
+}
+
+
+.banners-staticos{
+
+    margin-top: 30px;
+ 
+    .banners-staticos-parcele{
+    @include banners-staticos($rosa, '../images/parcele-em-12x.jpg')
+    
+    }
+   
+    .banners-staticos-entrega{
+          @include banners-staticos($roxo,'../images/entrega-para-todo-brasil.jpg')
+          
+    }
+
+    .banners-staticos-parcele, .banners-staticos-entrega {
+        background-size: cover;
+
+        height: 105px;
+        padding: 20px 60px;
+        color: $branco ;
+        font-size: 20px ;
+        
+        }
+
+  svg, p {
+
+    margin: 0;
+    padding: 0;
+         }
+         
+     svg{
+      
+    width: 60px;
+     height: 60px;     
+        }    
+p{
+font-weight: 100;
+font-size: 23px;
+line-height: 110%;
+margin-left: 20px;
+
+strong{
+    font-weight:bold ;
+}
+
+}
+
+}
+      

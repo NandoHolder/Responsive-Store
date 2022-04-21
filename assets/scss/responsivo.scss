@@ -1,0 +1,87 @@
+@media(max-width:375px){
+
+    .banners-staticos{
+
+        .banners-staticos-parcele,
+        .banners-staticos-entrega{
+            p{
+                font-size: 14px;
+            }
+        }
+
+    }
+
+}
+
+
+
+@media (max-width:767px){
+
+    footer{
+        h4{
+            margin-top: 10px;
+        }
+    }
+    
+    
+    
+    
+    .produtos-container{
+       img{
+           width: 100%;
+       }
+
+
+    }
+
+
+
+
+    #Banner-Slide{
+        display: none;
+    }
+header{
+
+    a{
+    
+        margin-bottom: 10px;
+    
+    }
+   
+    form{
+      
+        margin-bottom: 20px;
+      
+    }
+}
+
+
+}
+
+@media (max-width:986px){
+
+    header{
+        ul{
+            li{
+                margin: 7px 5px;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width:991px){
+
+    .banners-staticos{
+
+        .banners-staticos-parcele,
+        .banners-staticos-entrega{
+            p{
+                font-size: 18px;
+            }
+        }
+
+    }
+
+}

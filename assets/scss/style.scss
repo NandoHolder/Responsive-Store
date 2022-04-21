@@ -1,0 +1,27 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Barlow:wght@100;200;300;400&family=Roboto:wght@300;500;900&family=Send+Flowers&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+//Framework
+@import './bootstrap.scss';
+
+
+
+
+//Variaveis
+@import './variaveis.scss';
+
+
+//Components
+@import './header.scss';
+
+@import './banners-promicionais-staticos.scss';
+
+@import './nav-produtos.scss';
+
+@import './container-produtos.scss';
+
+@import './footer.scss';
+
+@import './responsivo.scss';
+//Config
+@import './config.scss';
