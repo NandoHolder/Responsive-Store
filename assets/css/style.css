@@ -11723,6 +11723,11 @@ footer ul li p {
     font-size: 14px;
   }
 }
+@media (max-width: 575.98px) {
+  .form-goup button {
+    width: 100%;
+  }
+}
 @media (max-width: 767px) {
   footer h4 {
     margin-top: 10px;
@@ -11754,6 +11759,40 @@ footer ul li p {
     font-size: 18px;
   }
 }
+.breadcrumb {
+  margin: 40px 0;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #ff0f9a;
+}
+
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  font-size: 32px;
+  margin-top: 0px;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+}
+.produtos-compra .produto-preco strong {
+  font-size: 40px;
+  font-weight: bold;
+}
+.produtos-compra .produto-preco .d-block {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+.produtos-compra .produto-preco .form-select {
+  margin-bottom: 20px;
+}
+.produtos-compra .produto-preco .produtos-stars svg {
+  color: #ffc107;
+}
+
 a {
   text-decoration: none;
 }
